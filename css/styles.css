@@ -1,10 +1,10 @@
- html{
+ /* html{
    box-sizing: border-box;}
    *,
    *::before,
    *::after{
    box-sizing: inherit;
-   }
+   } */
  :root {
   --accent-color: #2196f3;
   --main-text-color: #757575;
@@ -42,6 +42,10 @@
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 body {
 
@@ -126,10 +130,6 @@ text-align: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /* ------ section descriptions------> */
-.section-descriptions{
-  padding-top: 102px;
-  padding-bottom: 94px;
-}
 
 .section-des-list-item-caption{
   margin-top: 0;
@@ -150,13 +150,11 @@ text-align: center;
 }
 /* ------ section our_work------> */
 .section-work{
-  padding-bottom: 94px;
   background: #E5E5E5;
 }
 
 /* ------ section our_team------> */
 .section-team{
-  padding-bottom: 94px;
   background: var(--sec-background-color);
 }
 .section-team-list-item-img{
